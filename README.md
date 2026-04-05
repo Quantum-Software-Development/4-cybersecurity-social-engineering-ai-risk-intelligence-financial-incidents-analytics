@@ -34,7 +34,11 @@
 **Professor:** [✨ Eduardo Savino Gomes]()  <br>
 [**Extensionist Activities:**]() Extension projects and workshops using open‑source software and data‑driven consulting to support the community, aligned with the 20 official extension hours of the course.
 
-<br><br><br>
+<br><br>
+
+#
+
+<br><br>
 <!-- ========= END Institucional INFO ========= -->
 
 <!-- ========= START BADGES ========= -->
@@ -59,7 +63,7 @@
 
 <!-- ========= START Confidentiality statement ========= -->
 
-> [!NOTE]
+> [!IMPORTANT]
 > 
 > ⚠️ Heads Up
 >
