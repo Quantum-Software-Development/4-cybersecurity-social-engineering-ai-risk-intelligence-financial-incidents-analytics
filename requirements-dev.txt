@@ -1,17 +1,12 @@
-# =========================================================
-# Development Requirements
-# Extends the main requirements.txt
-# =========================================================
-
 -r requirements.txt
 
-# ── Testing ──────────────────────────────────────────────
-pytest==7.4.0
+# Testing
+pytest>=7.4.0
 
-# ── Interactive Development ──────────────────────────────
-ipython==8.12.0
-jupyter==1.0.0
+# Code quality
+black>=24.3.0
+flake8>=7.0.0
 
-# ── Code Quality / Formatting ────────────────────────────
-black==24.3.0
-flake8==7.0.0
+# Dev environment
+ipython>=8.12.0
+jupyter>=1.0.0
