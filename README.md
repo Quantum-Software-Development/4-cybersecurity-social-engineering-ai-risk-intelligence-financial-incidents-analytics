@@ -106,100 +106,78 @@
 
 <!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
 
-
-
 ## Table of Contents
 
-1. [Project Overview](#project-overview)  
-   1.1 [Business Context](#business-context)  
-   1.2 [General Objective](#general-objective)  
-   1.3 [Specific Objectives](#specific-objectives)  
-   1.4 [Research Questions](#research-questions)
-
-
-2. [Data and Problem Definition](#data-and-problem-definition)  
-   2.1 [Source Data: AI Incident Database (AIID)](#source-data-ai-incident-database-aiid)  
-   2.2 [Scope: Financial Services Subset](#scope-financial-services-subset)  
-   2.3 [Key Raw Variables](#key-raw-variables)  
-   2.4 [Core Analytical Concepts and Definitions](#core-analytical-concepts-and-definitions)
-
-
-3. [Derived Variables and Data Model](#derived-variables-and-data-model)  
-   3.1 [Financial Application Type](#financial-application-type)  
-   3.2 [Customer Segment](#customer-segment)  
-   3.3 [Incident Type](#incident-type)  
-   3.4 [Severity and Financial Loss](#severity-and-financial-loss)  
-   3.5 [Governance and Regulatory Response](#governance-and-regulatory-response)  
-   3.6 [Temporal and Geographic Dimensions](#temporal-and-geographic-dimensions)  
-   3.7 [Relational Data Model (SQLite)](#relational-data-model-sqlite)
-
-
-4. [Exploratory Analysis and Statistical Hypotheses](#exploratory-analysis-and-statistical-hypotheses)  
-   4.1 [Descriptive Questions](#descriptive-questions)  
-   4.2 [Hypothesis 1 – Concentration by Application Type](#hypothesis-1--concentration-by-application-type)  
-   4.3 [Hypothesis 2 – Bias by Customer Segment](#hypothesis-2--bias-by-customer-segment)  
-   4.4 [Hypothesis 3 – Severity and Regulatory Response](#hypothesis-3--severity-and-regulatory-response)  
-   4.5 [Hypothesis 4 – Temporal Trends and Regulation](#hypothesis-4--temporal-trends-and-regulation)
-
-
-5. [Machine Learning and Statistical Techniques](#machine-learning-and-statistical-techniques)  
-   5.1 [Predictive Models](#predictive-models)  
-   5.2 [Text Mining and NLP](#text-mining-and-nlp)  
-   5.3 [Statistical Methods](#statistical-methods)  
-   5.4 [Visual Analytics](#visual-analytics)
-
-
-6. [Project Structure and Notebooks](#project-structure-and-notebooks)  
-   6.1 [Phase 1 – Exploratory & Data Preparation](#phase-1--exploratory--data-preparation)  
-   6.2 [Phase 2 – Statistical Analysis & Hypothesis Testing](#phase-2--statistical-analysis--hypothesis-testing)  
-   6.3 [Phase 3 – Predictive Modeling & REST API](#phase-3--predictive-modeling--rest-api)  
-   6.4 [Final Consolidated Pipeline Notebook](#final-consolidated-pipeline-notebook)
-
-
-7. [CRISP‑DM Methodology Alignment](#crisp-dm-methodology-alignment) <br>
-   7.0 [CRISP‑DM Methodology Diagram](#crisp‑dm-methodology-diagram) <br>
-   7.1 [Business Understanding](#business-understanding)  
-   7.2 [Data Understanding](#data-understanding)  
-   7.3 [Data Preparation](#data-preparation)  
-   7.4 [Modeling](#modeling)  
-   7.5 [Evaluation](#evaluation)  
-   7.6 [Deployment](#deployment)
-
-
-9. [How to Run](#how-to-run)  
-   8.1 [Repository and Environment](#repository-and-environment)  
-   8.2 [Notebook Execution Order](#notebook-execution-order)  
-   8.3 [Starting the API](#starting-the-api)
-
-
-10. [Dataset Access](#dataset-access)  
-
-
-11. [Author](#author)  
-
-
-12. [Topics](#topics)  
-
-
-13. [Final Note](#final-note)
-
+1. [Introduction](#1-introduction)
+2. [Objectives and Research Questions](#2-objectives-and-research-questions)
+3. [Business Context and Data Foundation](#3-business-context-and-data-foundation)
+4. [Methodology — CRISP-DM](#4-methodology--crisp-dm)
+5. [Data Sources and Preparation](#5-data-sources-and-preparation)
+6. [Key Variables and Hypotheses](#6-key-variables-and-hypotheses)
+7. [Statistical and AI/ML Methods](#7-statistical-and-aiml-methods)
+8. [Project Architecture — 5 Notebooks](#8-project-architecture--5-notebooks)
+9. [Database Design and REST API Layer](#9-database-design-and-rest-api-layer)
+10. [Key Findings](#10-key-findings)
+11. [Timeline, Deliverables, and Business Alignment](#11-timeline-deliverables-and-business-alignment)
+12. [Installation and Execution Guide](#12-installation-and-execution-guide)
+13. [Project Structure](#13-project-structure)
+14. [Limitations and Risk Considerations](#14-limitations-and-risk-considerations)
+15. [Conclusion and Next Steps](#15-conclusion-and-next-steps)
+16. [References](#16-references)
 
 
 <br><br>
 
+## 1. Introduction
 
-## 1. [Project Overview]()
+<br>
+
+### 1.1 Business Context
+
+The adoption of Artificial Intelligence (AI) in banking and financial services has expanded significantly across critical domains such as credit scoring, fraud detection, algorithmic trading, risk management, and customer operations.
+
+While these systems improve efficiency and decision-making speed, they also introduce material risks related to **model bias**, **operational failures**, and **governance gaps**. For financial institutions, these risks translate directly into **regulatory exposure, reputational damage, and financial loss**.
+
+This project analyzes real-world AI incident reports to support a structured understanding of how these risks emerge in financial environments, with a focus on **risk patterns, affected customer groups, and governance response effectiveness**.
+
+<br>
+
+### 1.2 Business Problem
+
+Given a dataset of AI-related incidents filtered for the financial sector, this project addresses the following business questions:
+
+- Are there **recurring risk patterns** associated with specific AI use cases (credit, fraud, trading)?
+- Do certain **customer segments experience disproportionate impact** from AI-driven decisions?
+- Are **governance and regulatory responses aligned with incident severity and risk level**?
+
+<br>
+
+### 1.3 Business Value for Financial Institutions
+
+<br>
+
+| Stakeholder | Business Value |
+|---|---|
+| Banks and Financial Institutions | Improved operational risk control and reduced exposure to model failures |
+| Regulators | Data-driven supervision and better risk monitoring capabilities |
+| Risk Management Teams | Enhanced visibility of AI-related operational risks |
+| Compliance Departments | Identification of governance gaps and audit prioritization |
+| Executive Leadership | Better understanding of AI risk impact on business performance and reputation |
 
 
-### [1.1]()- ***Business Context***
+<br><br>
+
+> [!Note]
+>
+> This project demonstrates how AI incident data can be transformed into actionable risk indicators, predictive models, and API-driven monitoring systems, enabling continuous oversight and improved governance in financial environments.
+>
+> <br>
+>
+
+<br><br>
 
 
 
-The financial sector has rapidly adopted AI systems across areas such as credit scoring, fraud detection, algorithmic trading, customer service, and process automation. While these technologies generate significant value, they also introduce new forms of operational risk, algorithmic bias, and regulatory exposure, including fines, investigations, and reputational damage. In this context, this project analyzes documented incidents involving Artificial Intelligence (AI) in financial services, with a focus on algorithmic bias, operational risk, and governance responses in banks and fintechs. 
-
-The analysis relies on data from the AI Incident Database (AIID), accessed via Kaggle or the official platform (https://incidentdatabase.ai), and follows the CRISP-DM methodology, combining structured data analysis, statistical techniques, and simple predictive models to generate insights that support risk management and AI governance in the financial sector.
-
-In addition, the project adopts the perspective of a boutique consulting firm specialized in AI risk in financial services, working alongside banks and fintechs to identify patterns of AI-related incidents, map systemic vulnerabilities, and prevent future occurrences, with a strong emphasis on protecting customers from algorithmic bias, operational failures, and potentially harmful automated financial decisions, while aligning technical work with principles of transparency, robustness, fairness, and human-centered decision-making in regulated environments.
 
 
 
