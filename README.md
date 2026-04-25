@@ -13,8 +13,9 @@
 
 
 <!-- ========= START REPO TITLE ========= -->
-# <p align="center"> 🔐 [Cybersecurity, Social Engineering and AI Security]()  / [Project 4 – AI Finance Incident Risk & Governance Analysis ]() 
-### <p align="center"> Analysis of Algorithmic Bias • Operational Risk • AI Governance Responses in Financial Services 
+# <p align="center"> 🔐 [AI Security, Cybersecurity & Social Engineering]() | [Project: Financial AI Incident Risk & Governance Analysis]() </p></p>
+
+### <p align="center"> Algorithmic Bias • Operational Risk • Governance Strategies in Financial Services </p>
 
 
 
