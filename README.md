@@ -14,9 +14,9 @@
 
 <!-- ========= START REPO TITLE ========= -->
 
-# 🔐 [AI Incidents in Banking, Financial Services and Fintech]()
+# # <p align="center"> 🔐 [AI Incidents in Banking, Financial Services and Fintech]()
 
-### An Analysis of Algorithmic Bias, Operational Risk and Governance for Regulatory Compliance
+### # <p align="center"> An Analysis of Algorithmic Bias, Operational Risk and Governance for Regulatory Compliance
 
 
 
