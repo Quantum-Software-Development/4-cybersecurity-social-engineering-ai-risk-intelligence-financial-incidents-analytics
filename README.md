@@ -60,7 +60,7 @@
 
 The project is aligned with the course because it examines AI not only as a computational tool, but as a socio-technical risk layer embedded in highly regulated financial systems. In this context, failures in AI-driven applications such as credit scoring, fraud detection, trading systems and automated decision-making may generate algorithmic bias, operational disruption, regulatory exposure and harm to customers.
 
-Its connection with **AI Security** lies in the need to monitor, evaluate and govern AI systems as critical assets. Its connection with **Cybersecurity** emerges from the broader perspective of resilience, data protection, operational control and incident response in adversarial financial environments. Its relationship with **Social Engineering** appears in the ways AI can intensify manipulation, impersonation and trust-related risks in digital finance. Together, these dimensions justify the project’s focus on governance and regulatory compliance as central mechanisms for reducing AI-related risk.
+Its connection with [**AI Security**]() lies in the need to monitor, evaluate and govern AI systems as critical assets. Its connection with **Cybersecurity** emerges from the broader perspective of resilience, data protection, operational control and incident response in adversarial financial environments. Its relationship with [**Social Engineering**]() appears in the ways AI can intensify manipulation, impersonation and trust-related risks in digital finance. Together, these dimensions justify the project’s focus on governance and regulatory compliance as central mechanisms for reducing AI-related risk.
 
 
 <br><br>
