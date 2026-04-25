@@ -191,74 +191,65 @@ Given a dataset of AI-related incidents filtered for the financial sector, this 
 <br><br>
 
 
-# AI Financial Incident Intelligence System  
 ## System Architecture (MLOps Design)
 
 
 <br>
 
 ```mermaid
+%%{init: {'theme':'dark'}}%%
 flowchart TB
 
-subgraph DATA_SOURCES
-    A1[Kaggle Dataset - Financial Incidents]
-    A2[External APIs - Incident Database]
+subgraph DATA_SOURCE["DATA SOURCE"]
+    A1["AI Incident Database (AIID)"]
+    A2["Kaggle / Cache Local"]
 end
 
-subgraph DATA_LAYER
-    B1[Raw Data Storage]
-    B2[Data Cleaning Pipeline]
-    B3[Processed Dataset]
+subgraph PREP["DATA PREP & ENRICHMENT"]
+    B1["Notebook 1 - Exploracao & Preparacao"]
+    B2["CSV Tratado (incidents_finance_filtered.csv)"]
 end
 
-subgraph FEATURE_ENGINEERING
-    C1[Feature Extraction]
-    C2[Data Transformation]
-    C3[Feature Store]
+subgraph ANALYTICS["ANALYTICS & ML"]
+    C1["Notebook 2 - Estatistica & Testes H1-H4"]
+    C2["Notebook 3 - Modelagem Supervisionada"]
 end
 
-subgraph ML_PIPELINE
-    D1[Model Training]
-    D2[Model Evaluation]
-    D3[Model Registry]
+subgraph PERSISTENCE["PERSISTENCE"]
+    D1[("SQLite - ai_finance_incidents.db")]
+    D2[("Modelos Serializados (*.pkl)")]
 end
 
-subgraph STORAGE
-    E1[(SQLite Database)]
-    E2[(Serialized Models)]
+subgraph SERVICE["API & DASHBOARD"]
+    E1["Notebook 4 - Flask API (app_api.py)"]
+    E2["Streamlit Dashboard (dashboard/app.py)"]
 end
 
-subgraph APPLICATION
-    F1[REST API - FastAPI / Flask]
-    F2[Streamlit Dashboard]
-end
+%% FLOW
 
 A1 --> B1
 A2 --> B1
 
-B1 --> B2 --> B3
-B3 --> C1 --> C2 --> C3
-C3 --> D1 --> D2 --> D3
+B1 --> B2
+B2 --> C1
+B2 --> C2
 
-D3 --> E2
-B3 --> E1
+B2 --> D1
+C2 --> D2
 
-E2 --> F1
-E1 --> F1
+D1 --> E1
+D2 --> E1
 
-F1 --> F2
+E1 --> E2
 
-%% =========================
-%% TURQUOISE STYLING (GitHub-safe)
-%% =========================
+%% STYLE
 
-classDef default fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
+classDef default fill:#0d1117,stroke:#00d1c1,color:#ffffff;
 classDef group fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
 
-class DATA_SOURCES,DATA_LAYER,FEATURE_ENGINEERING,ML_PIPELINE,STORAGE,APPLICATION group;
+class DATA_SOURCE,PREP,ANALYTICS,PERSISTENCE,SERVICE group;
 ```
 
-<br><br>
 
 
 
@@ -271,18 +262,59 @@ class DATA_SOURCES,DATA_LAYER,FEATURE_ENGINEERING,ML_PIPELINE,STORAGE,APPLICATIO
 
 
 
+```mermaid
+%%{init: {'theme':'dark'}}%%
+flowchart TB
 
+subgraph DATA_SOURCE["DATA SOURCE"]
+    A1["AI Incident Database (AIID)"]
+    A2["Kaggle / Cache Local"]
+end
 
+subgraph PREP["DATA PREP & ENRICHMENT"]
+    B1["Notebook 1 - Exploracao & Preparacao"]
+    B2["CSV Tratado (incidents_finance_filtered.csv)"]
+end
 
+subgraph ANALYTICS["ANALYTICS & ML"]
+    C1["Notebook 2 - Estatistica & Testes H1-H4"]
+    C2["Notebook 3 - Modelagem Supervisionada"]
+end
 
+subgraph PERSISTENCE["PERSISTENCE"]
+    D1[("SQLite - ai_finance_incidents.db")]
+    D2[("Modelos Serializados (*.pkl)")]
+end
 
+subgraph SERVICE["API & DASHBOARD"]
+    E1["Notebook 4 - Flask API (app_api.py)"]
+    E2["Streamlit Dashboard (dashboard/app.py)"]
+end
 
+%% FLOW
 
+A1 --> B1
+A2 --> B1
 
+B1 --> B2
+B2 --> C1
+B2 --> C2
 
+B2 --> D1
+C2 --> D2
 
+D1 --> E1
+D2 --> E1
 
+E1 --> E2
 
+%% STYLE
+
+classDef default fill:#0d1117,stroke:#00d1c1,color:#ffffff;
+classDef group fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
+
+class DATA_SOURCE,PREP,ANALYTICS,PERSISTENCE,SERVICE group;
+```
 
 
 
