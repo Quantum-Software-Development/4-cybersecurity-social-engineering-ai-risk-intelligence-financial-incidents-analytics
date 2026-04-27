@@ -240,7 +240,7 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 
 Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro, se há padrões relevantes de **viés algorítmico**, **risco operacional** e **governança**, produzindo evidências úteis para análise, monitoramento e suporte à decisão.
 
-<br>
+<br><br>
 
 ### [2.2]() Objetivos específicos
 
@@ -248,16 +248,26 @@ Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro,
 
 [1.]() Identificar incidentes de IA relacionados a serviços financeiros.  
 [2.]() Estruturar e enriquecer os dados com variáveis derivadas de interesse analítico.  
-[p3.]() Avaliar hipóteses estatísticas sobre concentração, viés, severidade e resposta regulatória.  
+[3.]() Avaliar hipóteses estatísticas sobre concentração, viés, severidade e resposta regulatória.  
 [4.]() Construir modelos preditivos para classificação de severidade e investigação regulatória.  
 [5.]() Organizar os resultados em uma arquitetura composta por notebooks, base relacional, API RESTful e dashboard.
 
 <br><br>
 
 
+### [2.3]() Hipóteses de pesquisa
+
+<br>
+
+| [Hipótese]() |[ Pergunta]()                                                   | [Abordagem]()                             |
+|---------|------------------------------------------------------------|----------------------------------------|
+|[ H1]()      | Incidentes estão concentrados em certos tipos de aplicação?| Qui-quadrado de aderência              |
+|[H2]()      | Viés algorítmico afeta desproporcionalmente segmentos?     | Qui-quadrado de independência          |
+| [H3]()      | Incidentes mais severos geram maior resposta regulatória?  | Qui-quadrado e regressão logística     |
+| [H4]()      | Existe tendência temporal no volume de incidentes?         | Correlação temporal e análise de tendência |
 
 
-
+<br><br>
 
 
 
