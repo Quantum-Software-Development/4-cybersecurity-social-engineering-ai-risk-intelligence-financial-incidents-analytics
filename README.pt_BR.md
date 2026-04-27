@@ -23,24 +23,37 @@
 
 
 
+
+<!-- ========= Start BADGES ========= -->
 <p align="center">
   <a href="https://ai-incidents-financial-services.streamlit.app/">
     <img 
-      src="https://img.shields.io/badge/AI_Incident_Risk_Dashboard_Banking_and_Financial_Services-Streamlit-brightgreen?logo=streamlit&logoColor=white&style=flat-square" 
-      alt="AI Incident Risk Dashboard – Banking & Financial Services"
-      style="height: 30px; width: auto;"
+      src="https://img.shields.io/badge/AI_Incident_Risk_Dashboard-Banking_%26_Financial_Services-brightgreen?logo=streamlit&logoColor=white&style=for-the-badge" 
+      alt="AI Incident Risk Dashboard"
+      height="38"
+    />
+  </a>
+
+  <a href="https://luxury-taffy-7cbd89.netlify.app/">
+    <img 
+      src="https://img.shields.io/badge/View_Presentation-Slides-14b8a6?style=for-the-badge&logo=googleslides&logoColor=white" 
+      alt="View Presentation"
+      height="38"
+    />
+  </a>
+
+  <a href="">
+    <img 
+      src="https://img.shields.io/badge/View_PowerPoint-Deck-2dd4bf?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="View PowerPoint"
+      height="38"
     />
   </a>
 </p>
 
 
-
-
-<br><br><br>
-
-### <p align="center"> [View Presentation](https://luxury-taffy-7cbd89.netlify.app/)
-
-### <p align="center"> [View Power Poiint ]()
+<br><br><br><br>
+<!-- ========= ENDT BADGES ========= -->
 
 
 
@@ -67,16 +80,7 @@
 
 <!-- ========= START BADGES ========= -->
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-0fb9b1?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-14b8a6?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/API-REST-0ea5a4?logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-AI-2dd4bf" />
-  <img src="https://img.shields.io/badge/Database-SQL-5eead4?logo=postgresql&logoColor=black" />
-</p>
 
-<br><br>
-<!-- ========= END START BADGES ========= -->
 
 
 
