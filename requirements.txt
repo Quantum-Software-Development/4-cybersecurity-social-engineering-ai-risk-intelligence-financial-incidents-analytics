@@ -1,19 +1,19 @@
 # ═══════════════════════════════════════════════════════════════
-# AI Incidents in Financial Services — Requirements
+# AI Incidents in Financial Services — Requirements (Groq Edition)
 # Python 3.10+ | PUC-SP | CRISP-DM Project
 # ═══════════════════════════════════════════════════════════════
 
 # ----------------------------------------------------------------
 # 📦 CORE DATA STACK
 # ----------------------------------------------------------------
-# Manipulação e processamento de dados
+# Data manipulation and processing
 pandas>=2.0.0
 numpy>=1.24.0
 
 # ----------------------------------------------------------------
 # 📊 DATA VISUALIZATION
 # ----------------------------------------------------------------
-# Visualização exploratória e dashboards analíticos
+# Exploratory visualization and analytical dashboards
 matplotlib>=3.7.0
 seaborn>=0.12.0
 plotly>=5.18.0
@@ -21,14 +21,14 @@ plotly>=5.18.0
 # ----------------------------------------------------------------
 # 📈 STATISTICS & ANALYSIS
 # ----------------------------------------------------------------
-# Testes estatísticos e modelagem analítica
+# Statistical tests and analytical modeling
 scipy>=1.11.0
 statsmodels>=0.14.0
 
 # ----------------------------------------------------------------
 # 🤖 MACHINE LEARNING
 # ----------------------------------------------------------------
-# Modelagem, treinamento e explicabilidade
+# Modeling, training, and explainability
 scikit-learn>=1.3.0
 xgboost>=1.7.0
 shap>=0.43.0
@@ -37,7 +37,7 @@ joblib>=1.3.0
 # ----------------------------------------------------------------
 # 📓 NOTEBOOK ENVIRONMENT
 # ----------------------------------------------------------------
-# Ambiente interativo para desenvolvimento e experimentação
+# Interactive environment for development and experimentation
 jupyter>=1.0.0
 ipykernel>=6.25.0
 ipywidgets>=8.1.0
@@ -45,38 +45,38 @@ ipywidgets>=8.1.0
 # ----------------------------------------------------------------
 # 🌐 API RESTFUL
 # ----------------------------------------------------------------
-# Backend para exposição de dados e modelos
+# Backend for exposing data and models
 flask>=2.3.0
 flask-cors>=4.0.0
 
 # ----------------------------------------------------------------
 # 📊 DASHBOARD
 # ----------------------------------------------------------------
-# Interface interativa para visualização de resultados
+# Interactive interface for result visualization
 streamlit>=1.32.0
 
 # ----------------------------------------------------------------
 # 🔗 INTEGRATION / HTTP
 # ----------------------------------------------------------------
-# Comunicação com APIs externas
+# Communication with external APIs
 requests>=2.31.0
 
 # ----------------------------------------------------------------
-# 🤖 GENERATIVE AI (OPTIONAL)
+# 🤖 GENERATIVE AI (GROQ)
 # ----------------------------------------------------------------
-# Integração com modelos de linguagem (chatbot/assistente)
-openai>=1.0.0
+# LLM integration for chatbot / assistant
+groq>=0.9.0
 
 # ----------------------------------------------------------------
 # 🧰 UTILITIES
 # ----------------------------------------------------------------
-# Configuração de ambiente e manipulação de datas
+# Environment setup and date handling
 python-dotenv>=1.0.0
 python-dateutil>=2.8.2
 
 # ----------------------------------------------------------------
 # 🚀 PRODUCTION (OPTIONAL)
 # ----------------------------------------------------------------
-# Descomente para deploy em produção
+# Uncomment for production deployment
 # gunicorn>=21.2.0
 # pytest>=7.4.0
