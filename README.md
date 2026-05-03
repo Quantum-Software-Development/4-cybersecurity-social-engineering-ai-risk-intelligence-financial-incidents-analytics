@@ -11,22 +11,17 @@
 
 
 
-
 <!-- ========= START REPO TITLE ========= -->
-
 # <p align="center"> 🔐 [AI Incidents in Banking, Financial Services and Fintech]()
 
 ###  <p align="center"> An Analysis of Algorithmic Bias, Operational Risk and Governance for Regulatory Compliance
 
-
-
 <br><br>
+
 <!-- ========= END REPO TITLE ========= -->
 
 
-<!-- ========= Start Dashboard Streamlit ========= -->
-
-
+<!-- ========= START DashBoar Streamlit -->
 <p align="center">
   <a href="https://ai-incidents-financial-services.streamlit.app/" target="_blank" rel="noopener noreferrer">
     <img 
@@ -37,34 +32,28 @@
   </a>
 </p>
 
-
-<!-- ========= END DashBoar Streamlit -->
-
+<!-- ========= END Dashboard Streamlit -->
 
 <p align="center">
-  <a href="https://celebrated-faun-c3f0a2.netlify.app/">
+  <a href="https://stellar-fenglisu-9274fc.netlify.app/">
     <img 
-      src="https://img.shields.io/badge/View_Presentation-Slides-14b8a6?style=for-the-badge&logo=googleslides&logoColor=white" 
-      alt="Frontend React DOM"
+      src="https://img.shields.io/badge/React-Interactive%20Slides-115e59?style=for-the-badge&logo=react&logoColor=white" 
+      alt="React Interactive Slides"
       style="height: 30px; width: auto;"
     />
   </a>
 
-
-
-  <a href="https://docs.google.com/presentation/d/1wuR9X_ZuLUC2U2qtaqYrDIb157EfPLxe/edit?usp=sharing&ouid=116111056943857458728&rtpof=true&sd=true">
+  <a href="https://docs.google.com/presentation/d/1CeNA6D3Va2X8nc0dVeD1BKxV97d1SI-v/edit?slide=id.p1#slide=id.p1">
     <img 
-      src="https://img.shields.io/badge/View_PowerPoint-Deck-06b6d4?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
-      alt="View PowerPoint"
+      src="https://img.shields.io/badge/PPTX-Strategic%20Presentation-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="PPTX Strategic Presentation"
       style="height: 30px; width: auto;"
     />
   </a>
-</p>
 <!-- ========= END PPTX -->
 
 <br><br><br><br>
-
-<!-- ========= END BADGEO ========= -->
+<!-- ========= END BADGE  ========= -->
 
 
 
@@ -80,8 +69,8 @@
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC‑SP – Humanistic AI & Data Science • 5º Semester • 2026)  
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-[**Professor:**]() [✨ Eduardo Savino Gomes]()  
-[**Authors:**]()[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
+**Professor:** [✨ Eduardo Savino Gomes]()  
+**Authors:**[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
 [**Context:**]() This project analyzes real-world AI incidents in banking, financial services and fintech through the lenses of AI security, cybersecurity, social engineering, governance and regulatory compliance.
 
 <br><br>
@@ -109,14 +98,18 @@ https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
 
 
 <!-- ========= START BADGES ========= -->
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-0fb9b1?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-14b8a6?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/API-REST-0ea5a4?logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-AI-2dd4bf" />
-  <img src="https://img.shields.io/badge/Database-SQL-5eead4?logo=postgresql&logoColor=black" />
-  <img src="https://img.shields.io/badge/Render-Cloud%20Deploy-22c7b8?logo=render&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Data%20Science-0f172a?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-Interactive%20Presentation-123c4a?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerPoint-Strategic%20Deck-115e59?logo=microsoftpowerpoint&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Analytical%20Dashboard-0f766e?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/RESTful%20API-Built%20with%20Flask-0ea5a4?logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dashboard-Powered%20by%20Own%20API-14b8a6?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq%20API-LLM%20Inference-22d3ee?logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Chat-Embedded%20Assistant-0891b2?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Predictive%20Models-06b6d4?logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-Relational%20SQL-67e8f9?logo=postgresql&logoColor=0f172a" />
+  <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-164e63?logo=render&logoColor=white" />
 </p>
 
 <br><br><br>
@@ -132,8 +125,8 @@ From an executive perspective, the work demonstrates how dispersed incidents can
 
 The system answers questions such as:
 
-[-]() Which types of AI applications generate the most incidents in the financial sector?
-[-]() Does algorithmic bias affect customer segments unequally?
+[-]() Which types of AI applications generate the most incidents in the financial sector? <br>
+[-]() Does algorithmic bias affect customer segments unequally? <br>
 [-]() Is it possible to predict the severity of an incident before a regulatory investigation?
 
 <br><br>
@@ -196,83 +189,142 @@ The system answers questions such as:
 
 ## Table of Contents
 
-
 1. [Introduction](#1-introduction)
 2. [Objectives and Research Questions](#2-objectives-and-research-questions)
-3. [Foundations and Data Context](#3-foundations-and-data-context)
+3. [Data Background and Context](#3-data-background-and-context)
 4. [CRISP-DM Methodology](#4-crisp-dm-methodology)
-5. [Data Used and Preparation](#5-data-used-and-preparation)
+5. [Data Sources and Preparation](#5-data-sources-and-preparation)
 6. [Analytical Variables and Hypotheses](#6-analytical-variables-and-hypotheses)
 7. [Statistical Analysis and Inferential Results](#7-statistical-analysis-and-inferential-results)
 8. [Machine Learning Modeling](#8-machine-learning-modeling)
 9. [Relational Database and RESTful API](#9-relational-database-and-restful-api)
 10. [Interactive Dashboard](#10-interactive-dashboard)
-11. [Project Architecture](#11-project-architecture)
-12. [Technical Structure of the Notebooks](#12-technical-structure-of-the-notebooks)
+11. [System Architecture](#11-system-architecture)
+12. [Technical Notebook Structure](#12-technical-notebook-structure)
 13. [Consolidated Results](#13-consolidated-results)
 14. [Limitations and Methodological Considerations](#14-limitations-and-methodological-considerations)
-15. [Execution Guide](#15-execution-guide)
-16. [File Structure](#16-file-structure)
-17. [Dependencies](#17-dependencies)
-18. [Conclusions and Next Steps](#18-conclusions-and-next-steps)
-19. [References](#19-references)
-
-
-
-<br><br>
-
-## 1. Introduction
-
-<br>
-
-### 1.1 Business Context
-
-The adoption of Artificial Intelligence (AI) in banking and financial services has expanded significantly across critical domains such as credit scoring, fraud detection, algorithmic trading, risk management, and customer operations.
-
-While these systems improve efficiency and decision-making speed, they also introduce material risks related to **model bias**, **operational failures**, and **governance gaps**. For financial institutions, these risks translate directly into **regulatory exposure, reputational damage, and financial loss**.
-
-This project analyzes real-world AI incident reports to support a structured understanding of how these risks emerge in financial environments, with a focus on **risk patterns, affected customer groups, and governance response effectiveness**.
-
-<br>
-
-### 1.2 Business Problem
-
-Given a dataset of AI-related incidents filtered for the financial sector, this project addresses the following business questions:
-
-- Are there **recurring risk patterns** associated with specific AI use cases (credit, fraud, trading)?
-- Do certain **customer segments experience disproportionate impact** from AI-driven decisions?
-- Are **governance and regulatory responses aligned with incident severity and risk level**?
-
-<br>
-
-### 1.3 Business Value for Financial Institutions
-
-<br>
-
-| Stakeholder | Business Value |
-|---|---|
-| Banks and Financial Institutions | Improved operational risk control and reduced exposure to model failures |
-| Regulators | Data-driven supervision and better risk monitoring capabilities |
-| Risk Management Teams | Enhanced visibility of AI-related operational risks |
-| Compliance Departments | Identification of governance gaps and audit prioritization |
-| Executive Leadership | Better understanding of AI risk impact on business performance and reputation |
-
+15. [Technology Stack](#15-technology-stack)
+16. [Local Execution Guide](#16-local-execution-guide)
+17. [Groq API Configuration](#17-groq-api-configuration)
+18. [Production Deployment](#18-production-deployment)
+19. [API Infrastructure and Publishing on Render](#19-api-infrastructure-and-publishing-on-render)
+20. [File Structure](#20-file-structure)
+21. [Dependencies](#21-dependencies)
+22. [Conclusions and Next Steps](#22-conclusions-and-next-steps)
+23. [References](#23-references)
 
 <br><br>
 
-> [!Note]
+
+## 1. [Introduction]()
+
+<br>
+
+### 1.1 [**Context of the topic**]()
+
+The use of Artificial Intelligence systems in the financial sector has been growing rapidly in applications such as [**credit scoring**](), [**fraud detection**](), [**algorithmic trading**](), *[**risk assessment**](), customer service automation, and compliance support. This advancement expands institutions’ operational capacity but also introduces new risk vectors, especially in highly regulated environments sensitive to automated decision-making failures.
+
+In the financial sector, AI failures do not only affect technical performance. They can generate reputational damage, discriminatory bias, operational losses, regulatory scrutiny, and changes in internal policies. Therefore, analyzing real AI incidents in this domain is a concrete way to bridge algorithmic governance, risk management, and empirical evidence.
+
+This project was built using real documented incidents from the [**AI Incident Database (AIID)**](https://incidentdatabase.ai/) filtered for the financial services context. The central proposal is to transform this dataset into a structured analytical base capable of supporting statistical analysis, predictive modeling, relational storage, API exposure, and dashboard consumption.
+
+<br>
+
+### 1.2 [**Research problem**]()
+
+Given a set of AI incidents recorded across multiple sectors and filtered to the financial domain, the central problem is to evaluate whether:
+
+<br>
+
+[-]() there are **systematic patterns** of bias and risk associated with certain types of AI applications (credit, fraud, *trading*);
+[-]() certain **customer segments** are disproportionately affected;
+[-]() **governance and regulatory responses** adequately match the severity of incidents.
+
+<br>
+
+### 1.3 [**Relevance to the financial sector and AI governance**]()
+
+<br>
+
+| [Stakeholder]()            | [Direct Benefit]()                                           |
+| -------------------------- | ------------------------------------------------------------ |
+| [**Banks and Fintechs**]() | Improve operational and reputational risk management         |
+| [**Regulators**]()         | Evidence-based and data-driven supervision                   |
+| [**Risk Managers**]()      | Tools to assess exposure to AI incidents                     |
+| [**Compliance**]()         | Identify regulatory gaps and prioritize audits               |
+| [**Investors**]()          | Understand the impact of AI incidents on institutional value |
+
+<br><br>
+
+> [!TIP]
 >
-> This project demonstrates how AI incident data can be transformed into actionable risk indicators, predictive models, and API-driven monitoring systems, enabling continuous oversight and improved governance in financial environments.
+> For [**AI governance**](), the project illustrates how incident data can be transformed into indicators, predictive models, and APIs, enabling continuous monitoring and structured responses to risks.
 >
 > <br>
->
 
 <br><br>
 
+## 2. [Objectives and Questions]()
 
+<br>
+
+### 2.1 [General Objective]()
+
+To evaluate, based on structured data from AI incidents in the financial sector, whether there are relevant patterns of **algorithmic bias**, **operational risk**, and **governance**, producing evidence useful for analysis, monitoring, and decision support.
 
 <br><br>
 
+### 2.2 [Specific objectives]()
+
+<br>
+
+[1.]() Identify AI incidents related to financial services. <br>
+[2.]() Structure and enrich the data with derived analytical variables. <br>
+[3.]() Evaluate statistical hypotheses on concentration, bias, severity, and regulatory response.   <br>
+[4.]() Build predictive models for severity classification and regulatory investigation. <br>
+[5.]() Organize results into an architecture composed of notebooks, relational database, RESTful API, and dashboard.
+
+<br><br>
+
+### 2.3 [Research hypotheses]()
+
+<br>
+
+| [Hypothesis]() | [Question]()                                                   | [Approach]()                        |
+| -------------- | -------------------------------------------------------------- | ----------------------------------- |
+| [H1]()         | Are incidents concentrated in certain application types?       | Chi-square goodness-of-fit          |
+| [H2]()         | Does algorithmic bias disproportionately affect segments?      | Chi-square test of independence     |
+| [H3]()         | Do more severe incidents generate greater regulatory response? | Chi-square and logistic regression  |
+| [H4]()         | Is there a temporal trend in incident volume?                  | Time correlation and trend analysis |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br><br>
+<br><br>
+<br><br>
 
 ## System Architecture (MLOps Design)
 

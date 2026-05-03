@@ -18,15 +18,11 @@
 
 ###  <p align="center"> Análise de Viés Algorítmico, Risco Operacional, Modelagem Preditiva e Governança de IA em Serviços Financeiros
 
-
-
 <br><br>
 <!-- ========= END REPO TITLE ========= -->
 
 
-<!-- ========= Start Dashboard Streamlit ========= -->
-
-
+<!-- ========= START DashBoar Streamlit -->
 <p align="center">
   <a href="https://ai-incidents-financial-services.streamlit.app/" target="_blank" rel="noopener noreferrer">
     <img 
@@ -37,51 +33,39 @@
   </a>
 </p>
 
-
-<!-- ========= END DashBoar Streamlit -->
-
+<!-- ========= END Dashboard Streamlit -->
 
 <p align="center">
-  <a href="https://celebrated-faun-c3f0a2.netlify.app/">
+  <a href="https://symphonious-sherbet-0cbe05.netlify.app/">
     <img 
-      src="https://img.shields.io/badge/View_Presentation-Slides-14b8a6?style=for-the-badge&logo=googleslides&logoColor=white" 
-      alt="Frontend React DOM"
+      src="https://img.shields.io/badge/React-Interactive%20Slides-115e59?style=for-the-badge&logo=react&logoColor=white" 
+      alt="React Interactive Slides"
       style="height: 30px; width: auto;"
     />
   </a>
 
-
-
-  <a href="https://docs.google.com/presentation/d/1wuR9X_ZuLUC2U2qtaqYrDIb157EfPLxe/edit?usp=sharing&ouid=116111056943857458728&rtpof=true&sd=true">
+  <a href="https://docs.google.com/presentation/d/1BVQKF-1sYxSaoBiAuCJXMrjbXbYMqoqp/edit?usp=sharing&ouid=102317517900075068974&rtpof=true&sd=true">
     <img 
-      src="https://img.shields.io/badge/View_PowerPoint-Deck-06b6d4?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
-      alt="View PowerPoint"
+      src="https://img.shields.io/badge/PPTX-Strategic%20Presentation-0f766e?style=for-the-badge&logo=microsoftpowerpoint&logoColor=white" 
+      alt="PPTX Strategic Presentation"
       style="height: 30px; width: auto;"
     />
   </a>
-</p>
 <!-- ========= END PPTX -->
 
 <br><br><br><br>
-
-<!-- ========= END BADGEO ========= -->
-
-
-
-<!-- ========= START Institucional INFO ========= -->
+<!-- ========= END BADGE  ========= -->
 
 
 
 <!-- ========= START Institucional INFO ========= -->
-
-
 <br>
 
 [**Institution:**]() Pontifical Catholic University of São Paulo (PUC‑SP – Humanistic AI & Data Science • 5º Semester • 2026)  
 [**School:**]() FACEI – Faculty of Interdisciplinary Studies  
 [**Course:**]() AI Security, Cybersecurity & Social Engineering  
-[**Professor:**]() [✨ Eduardo Savino Gomes]()  
-[**Authors:**]()[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
+**Professor:** [✨ Eduardo Savino Gomes]()  
+**Authors:**[Fabiana ⚡️ Campanari](https://linktr.ee/fabianacampanari) e [Perdro Vyctor Almeida]()  <br>
 [**Context:**]() Este projeto analisa incidentes reais de Inteligência Artificial em bancos, serviços financeiros e fintechs sob as perspectivas de segurança em IA, cibersegurança, engenharia social, governança e conformidade regulatória. 
 
 <br><br>
@@ -109,14 +93,18 @@ https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
 
 
 <!-- ========= START BADGES ========= -->
-
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-Data%20Science-0fb9b1?logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Streamlit-Dashboard-14b8a6?logo=streamlit&logoColor=white" />
-  <img src="https://img.shields.io/badge/API-REST-0ea5a4?logo=flask&logoColor=white" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-AI-2dd4bf" />
-  <img src="https://img.shields.io/badge/Database-SQL-5eead4?logo=postgresql&logoColor=black" />
-  <img src="https://img.shields.io/badge/Render-Cloud%20Deploy-22c7b8?logo=render&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-Data%20Science-0f172a?logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-Interactive%20Presentation-123c4a?logo=react&logoColor=white" />
+  <img src="https://img.shields.io/badge/PowerPoint-Strategic%20Deck-115e59?logo=microsoftpowerpoint&logoColor=white" />
+  <img src="https://img.shields.io/badge/Streamlit-Analytical%20Dashboard-0f766e?logo=streamlit&logoColor=white" />
+  <img src="https://img.shields.io/badge/RESTful%20API-Built%20with%20Flask-0ea5a4?logo=flask&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dashboard-Powered%20by%20Own%20API-14b8a6?logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq%20API-LLM%20Inference-22d3ee?logo=graphql&logoColor=white" />
+  <img src="https://img.shields.io/badge/AI%20Chat-Embedded%20Assistant-0891b2?logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/Machine%20Learning-Predictive%20Models-06b6d4?logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/Database-Relational%20SQL-67e8f9?logo=postgresql&logoColor=0f172a" />
+  <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-164e63?logo=render&logoColor=white" />
 </p>
 
 <br><br><br>
@@ -133,8 +121,8 @@ Do ponto de vista executivo, o trabalho mostra como incidentes dispersos podem s
 
 O sistema responde a perguntas como:
 
-[-]() Quais tipos de aplicação de IA geram mais incidentes no setor financeiro?
-[-]() Viés algorítmico afeta segmentos de clientes de forma desigual?
+[-]() Quais tipos de aplicação de IA geram mais incidentes no setor financeiro? <br>
+[-]() Viés algorítmico afeta segmentos de clientes de forma desigual? <br>
 [-]() É possível prever a severidade de um incidente antes de uma investigação regulatória?
 
 
@@ -201,9 +189,6 @@ O sistema responde a perguntas como:
 <!-- ======================================= END DEFAULT HEADER ⚡️ ===========================================  -->
 
 
-<br><br>
-
-
 ## Table of Contents
 
 
@@ -238,7 +223,7 @@ O sistema responde a perguntas como:
 
 <br>
 
-### [1.1]() ***Contextualização do tema***
+### 1.1 [**Contextualização do tema**]()
 
 
 O uso de sistemas de Inteligência Artificial no setor financeiro tem crescido rapidamente em aplicações como [**credit scoring**](), [**fraud detection**](), [**algorithmic trading**](), *[*risk assessment**](), automação de atendimento e apoio à conformidade. Esse avanço amplia a capacidade operacional das instituições, mas também introduz novos vetores de risco, sobretudo em ambientes altamente regulados e sensíveis a falhas de decisão automatizada.
@@ -249,7 +234,7 @@ Este projeto foi construído a partir de incidentes reais documentados no[**AI I
 
 <br>
 
-### [1.2]() ***Problema de pesquisa***
+### 1.2 [**Problema de pesquisa**]()
 
 Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrados para o domínio financeiro, o problema central é avaliar se:
 
@@ -261,7 +246,7 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 
 <br>
 
-### [1.3]() ***Relevância para o setor financeiro e para a governança de IA***
+### 1.3 [**Relevância para o setor financeiro e para a governança de IA**]()
 
 <br>
 
@@ -290,13 +275,13 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 
 <br>
 
-### [2.1]() Objetivo Geral
+### 2.1 [Objetivo Geral]()
 
 Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro, se há padrões relevantes de **viés algorítmico**, **risco operacional** e **governança**, produzindo evidências úteis para análise, monitoramento e suporte à decisão.
 
 <br><br>
 
-### [2.2]() Objetivos específicos
+### 2.2 [Objetivos específicos]()
 
 <br>
 
@@ -309,13 +294,13 @@ Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro,
 <br><br>
 
 
-### [2.3]() Hipóteses de pesquisa
+### 2.3 [Hipóteses de pesquisa]()
 
 <br>
 
-| [Hipótese]() |[ Pergunta]()                                                   | [Abordagem]()                             |
+| [Hipótese]() |[Pergunta]()                                                   | [Abordagem]()                             |
 |---------|------------------------------------------------------------|----------------------------------------|
-|[ H1]()      | Incidentes estão concentrados em certos tipos de aplicação?| Qui-quadrado de aderência              |
+|[H1]()      | Incidentes estão concentrados em certos tipos de aplicação?| Qui-quadrado de aderência              |
 |[H2]()      | Viés algorítmico afeta desproporcionalmente segmentos?     | Qui-quadrado de independência          |
 | [H3]()      | Incidentes mais severos geram maior resposta regulatória?  | Qui-quadrado e regressão logística     |
 | [H4]()      | Existe tendência temporal no volume de incidentes?         | Correlação temporal e análise de tendência |
