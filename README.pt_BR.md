@@ -223,7 +223,7 @@ O sistema responde a perguntas como:
 
 <br>
 
-### [1.1]() ***Contextualização do tema***
+### 1.1 [**Contextualização do tema**]()
 
 
 O uso de sistemas de Inteligência Artificial no setor financeiro tem crescido rapidamente em aplicações como [**credit scoring**](), [**fraud detection**](), [**algorithmic trading**](), *[*risk assessment**](), automação de atendimento e apoio à conformidade. Esse avanço amplia a capacidade operacional das instituições, mas também introduz novos vetores de risco, sobretudo em ambientes altamente regulados e sensíveis a falhas de decisão automatizada.
@@ -234,7 +234,7 @@ Este projeto foi construído a partir de incidentes reais documentados no[**AI I
 
 <br>
 
-### [1.2]() ***Problema de pesquisa***
+### [1.2 **Problema de pesquisa**]()
 
 Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrados para o domínio financeiro, o problema central é avaliar se:
 
@@ -246,7 +246,7 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 
 <br>
 
-### [1.3]() ***Relevância para o setor financeiro e para a governança de IA***
+### 1.3 [**Relevância para o setor financeiro e para a governança de IA**]()
 
 <br>
 
@@ -275,13 +275,13 @@ Dado um conjunto de incidentes de IA registrados em múltiplos setores e filtrad
 
 <br>
 
-### [2.1]() Objetivo Geral
+### 2.1 [Objetivo Geral]()
 
 Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro, se há padrões relevantes de **viés algorítmico**, **risco operacional** e **governança**, produzindo evidências úteis para análise, monitoramento e suporte à decisão.
 
 <br><br>
 
-### [2.2]() Objetivos específicos
+### 2.2 [Objetivos específicos]()
 
 <br>
 
@@ -294,13 +294,13 @@ Avaliar, com base em dados estruturados de incidentes de IA no setor financeiro,
 <br><br>
 
 
-### [2.3]() Hipóteses de pesquisa
+### 2.) [Hipóteses de pesquisa]()
 
 <br>
 
-| [Hipótese]() |[ Pergunta]()                                                   | [Abordagem]()                             |
+| [Hipótese]() |[Pergunta]()                                                   | [Abordagem]()                             |
 |---------|------------------------------------------------------------|----------------------------------------|
-|[ H1]()      | Incidentes estão concentrados em certos tipos de aplicação?| Qui-quadrado de aderência              |
+|[H1]()      | Incidentes estão concentrados em certos tipos de aplicação?| Qui-quadrado de aderência              |
 |[H2]()      | Viés algorítmico afeta desproporcionalmente segmentos?     | Qui-quadrado de independência          |
 | [H3]()      | Incidentes mais severos geram maior resposta regulatória?  | Qui-quadrado e regressão logística     |
 | [H4]()      | Existe tendência temporal no volume de incidentes?         | Correlação temporal e análise de tendência |
