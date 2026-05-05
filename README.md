@@ -330,10 +330,10 @@ To evaluate, based on structured data from AI incidents in the financial sector,
 
 
 
+<br><br>
+<br><br>
+<br><br>
 
-<br><br>
-<br><br>
-<br><br>
 
 ## System Architecture (MLOps Design)
 
@@ -346,66 +346,76 @@ To evaluate, based on structured data from AI incidents in the financial sector,
 %%{init: {'theme':'dark'}}%%
 flowchart LR
 
-subgraph DL["Data Layer"]
-    A["AIID / Kaggle"]
-    B["Prep (NB1)"]
-    C["CSV Clean"]
-    F[("SQLite")]
+subgraph S1["Data Sources"]
+    A1["AI Incident Database"]
+    A2["Kaggle Dataset"]
 end
 
-subgraph AL["Analytics Layer"]
-    D["Stats (NB2)"]
+subgraph S2["Data Ingestion"]
+    B1["Notebook 1\nExploration & Preparation"]
+    B2["Data Quality & Cleaning"]
 end
 
-subgraph ML["Model Layer"]
-    E["ML (NB3)"]
-    G[("Models .pkl")]
+subgraph S3["Feature Store"]
+    C1["Processed CSV\nFeature-Engineered Dataset"]
 end
 
-subgraph API["API Layer"]
-    H["API (Flask)"]
-    J["Render Cloud"]
-    K["API URL pública"]
+subgraph S4["Analytics & Training"]
+    D1["Notebook 2\nStatistical Analysis"]
+    D2["Notebook 3\nML Training"]
 end
 
-subgraph AI["AI Assistant Layer"]
-    L["Groq API"]
-    M["Chatbot (Streamlit)"]
+subgraph S5["Model & Data Storage"]
+    E1[("SQLite Warehouse")]
+    E2[("Model Registry\n.pkl Artifacts")]
 end
 
-subgraph PL["Presentation Layer"]
-    I["Dashboard (Streamlit)"]
-    N["Streamlit Cloud"]
-    O["Dashboard URL pública"]
+subgraph S6["Inference Service"]
+    F1["Flask REST API"]
+    F2["Render Cloud"]
+    F3["Public HTTPS Endpoint"]
 end
 
-A --> B
-B --> C
-C --> D
-C --> E
-C --> F
-E --> G
-F --> H
-G --> H
-H --> J
-J --> K
-K --> I
-K --> M
-L --> M
-M --> I
-I --> N
-N --> O
+subgraph S7["AI Assistant Layer"]
+    G1["Groq API\nllama-3.1-8b-instant"]
+    G2["Streamlit Chatbot"]
+end
 
-%% STYLE TURQUOISE
-classDef node fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
+subgraph S8["Presentation Apps"]
+    H1["Streamlit Dashboard"]
+    H2["Streamlit Cloud"]
+    H3["Public Dashboard URL"]
+end
+
+A1 --> B1
+A2 --> B1
+B1 --> B2
+B2 --> C1
+C1 --> D1
+C1 --> D2
+C1 --> E1
+D2 --> E2
+E1 --> F1
+E2 --> F1
+F1 --> F2
+F2 --> F3
+F3 --> H1
+F3 --> G2
+G1 --> G2
+G2 --> H1
+H1 --> H2
+H2 --> H3
+
+%% STYLE
+classDef node fill:#0d1117,stroke:#00d1c1,stroke-width:1.2px,color:#ffffff;
 classDef db fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
 classDef cloud fill:#0d1117,stroke:#00d1c1,stroke-width:1.5px,color:#ffffff;
 classDef layer fill:#111827,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
 
-class A,B,C,D,E,H,I,M node;
-class F,G db;
-class J,K,L,N,O cloud;
-class DL,AL,ML,API,AI,PL layer;
+class A1,A2,B1,B2,C1,D1,D2,F1,G1,G2,H1 node;
+class E1,E2 db;
+class F2,F3,H2,H3 cloud;
+class S1,S2,S3,S4,S5,S6,S7,S8 layer;
 ```
 
 
