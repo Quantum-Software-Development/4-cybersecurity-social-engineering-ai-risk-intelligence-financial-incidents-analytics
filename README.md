@@ -331,12 +331,6 @@ To evaluate, based on structured data from AI incidents in the financial sector,
 
 
 
-
-
-
-
-
-
 <br><br>
 <br><br>
 <br><br>
@@ -346,33 +340,73 @@ To evaluate, based on structured data from AI incidents in the financial sector,
 
 <br>
 
+
+
 ```mermaid
 %%{init: {'theme':'dark'}}%%
 flowchart LR
 
-A["AIID / Kaggle"] --> B["Prep (NB1)"]
-B --> C["CSV Clean"]
+subgraph DL["Data Layer"]
+    A["AIID / Kaggle"]
+    B["Prep (NB1)"]
+    C["CSV Clean"]
+    F[("SQLite")]
+end
 
-C --> D["Stats (NB2)"]
-C --> E["ML (NB3)"]
+subgraph AL["Analytics Layer"]
+    D["Stats (NB2)"]
+end
 
-C --> F[("SQLite")]
-E --> G[("Models .pkl")]
+subgraph ML["Model Layer"]
+    E["ML (NB3)"]
+    G[("Models .pkl")]
+end
 
-F --> H["API (Flask)"]
+subgraph API["API Layer"]
+    H["API (Flask)"]
+    J["Render Cloud"]
+    K["API URL pública"]
+end
+
+subgraph AI["AI Assistant Layer"]
+    L["Groq API"]
+    M["Chatbot (Streamlit)"]
+end
+
+subgraph PL["Presentation Layer"]
+    I["Dashboard (Streamlit)"]
+    N["Streamlit Cloud"]
+    O["Dashboard URL pública"]
+end
+
+A --> B
+B --> C
+C --> D
+C --> E
+C --> F
+E --> G
+F --> H
 G --> H
-
-H --> I["Dashboard (Streamlit)"]
+H --> J
+J --> K
+K --> I
+K --> M
+L --> M
+M --> I
+I --> N
+N --> O
 
 %% STYLE TURQUOISE
-
 classDef node fill:#0d1117,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
 classDef db fill:#0d1117,stroke:#00d1c1,stroke-width:2px,color:#ffffff;
+classDef cloud fill:#0d1117,stroke:#00d1c1,stroke-width:1.5px,color:#ffffff;
+classDef layer fill:#111827,stroke:#00d1c1,stroke-width:1px,color:#ffffff;
 
-class A,B,C,D,E,H,I node;
+class A,B,C,D,E,H,I,M node;
 class F,G db;
+class J,K,L,N,O cloud;
+class DL,AL,ML,API,AI,PL layer;
 ```
-
 
 
 
