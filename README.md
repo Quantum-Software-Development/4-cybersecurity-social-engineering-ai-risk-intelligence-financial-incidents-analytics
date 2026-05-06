@@ -68,7 +68,7 @@
 <!-- ========= END DATA ANALYSING REPORT ========= -->
 
 <br><br><br><br>
-<!-- ========= END BADGE ========= -->
+<!-- =====================  END BADGE Group 1 ===================== -->
 
 
 
@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
 <!-- ========= END DEMO VIDEO ========= -->
 
 
-<!-- ========= START BADGES ========= -->
+<!-- ========= START BADGES Group 2 ========= -->
 <p align="center">
   <img src="https://img.shields.io/badge/Python-Data%20Science-0f172a?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-Interactive%20Presentation-101f2f?logo=react&logoColor=white" />
@@ -136,7 +136,7 @@ https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
 
 
 <br><br><br>
-<!-- ========= END  BADGES ========= -->
+<!-- ========= END  BADGES Group 2 ========= -->
 
 
 <!-- ========= START INTRO ========= -->
