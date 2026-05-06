@@ -117,16 +117,23 @@ https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
   <img src="https://img.shields.io/badge/Python-Data%20Science-0f172a?logo=python&logoColor=white" />
   <img src="https://img.shields.io/badge/React-Interactive%20Presentation-101f2f?logo=react&logoColor=white" />
   <img src="https://img.shields.io/badge/PowerPoint-Strategic%20Deck-112a3a?logo=microsoftpowerpoint&logoColor=white" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Streamlit-Analytical%20Dashboard-123445?logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/Streamlit%20Cloud-Deployment-124050?logo=streamlit&logoColor=white" />
   <img src="https://img.shields.io/badge/RESTful%20API-Built%20with%20Flask-134a4a?logo=flask&logoColor=white" />
   <img src="https://img.shields.io/badge/Dashboard-Powered%20by%20Own%20API-134e4a?logo=fastapi&logoColor=white" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Groq%20API-LLM%20Inference-134e4a?logo=graphql&logoColor=white" />
   <img src="https://img.shields.io/badge/AI%20Chat-Embedded%20Assistant-134e4a?logo=openai&logoColor=white" />
   <img src="https://img.shields.io/badge/Machine%20Learning-Predictive%20Models-134e4a?logo=tensorflow&logoColor=white" />
   <img src="https://img.shields.io/badge/Database-Relational%20SQL-134e4a?logo=postgresql&logoColor=white" />
   <img src="https://img.shields.io/badge/Render-Cloud%20Deployment-134e4a?logo=render&logoColor=white" />
 </p>
+
 
 <br><br><br>
 <!-- ========= END  BADGES ========= -->
