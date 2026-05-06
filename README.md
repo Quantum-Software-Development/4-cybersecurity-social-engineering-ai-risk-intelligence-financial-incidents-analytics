@@ -106,7 +106,7 @@
 https://github.com/user-attachments/assets/5d3c33b0-166e-414c-a561-8e8dd509be3d
 
 #### 🖤 Creative Direction, Music Curation & Editing  by Fab⚡️ <br>
-#####🎶 Soundtrack: "Canon in D" — Johann Pachelbel
+##### 🎶 Soundtrack: "Canon in D" — Johann Pachelbel
 
 <br><br><br>
 <!-- ========= END DEMO VIDEO ========= -->
